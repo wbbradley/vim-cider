@@ -11,7 +11,7 @@ syntax match ciderTypedef "\v<type> +<alias>"
 syntax match ciderTypedef "\v<type> +<def>"
 syntax match ciderTypedef "\v<can> +<be>"
 
-syntax keyword ciderTypedef alias has is union join struct varies matches
+syntax keyword ciderTypedef alias has is matches
 highlight link ciderTypedef Typedef
 
 syntax keyword ciderKeyword while for break continue pass
